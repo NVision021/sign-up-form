@@ -1,9 +1,25 @@
-/* * {
-  border: solid black;
-} */
+body {
+  display: flex;
+  height: 100vh;
+}
 
-html {
-  background-color: green;
+.right-side {
+  flex: 2;
+}
+
+.background {
+  flex: 1;
+}
+
+.logo-background {
+  background-color: black;
+  opacity: .8;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  color: white;
 }
 
 .italics{ 
