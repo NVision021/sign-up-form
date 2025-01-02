@@ -1,0 +1,19 @@
+/* * {
+  border: solid black;
+} */
+
+html {
+  background-color: green;
+}
+
+.italics{ 
+  font-style: italic;
+}
+
+input {
+  display: block;
+}
+
+.form-row {
+  display: flex;
+}
