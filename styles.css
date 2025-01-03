@@ -6,6 +6,14 @@
   font-style: normal;
 }
 
+* {
+  font-family: Arial, system-ui;
+}
+
+:root {
+  --leaf-green: #596D48;
+}
+
 body {
   display: flex;
   height: 100vh;
@@ -21,6 +29,8 @@ body {
   background-image: url(https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1862&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-size: cover;
   color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 .logo-background {
@@ -28,7 +38,7 @@ body {
   opacity: .8;
   display: flex;
   align-items: center;
-  
+  margin-top: 150px;
 }
 
 h1 {
@@ -45,4 +55,24 @@ input {
 
 .form-row {
   display: flex;
+}
+
+a, button {
+  color: white;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.log-in {
+  color: var(--leaf-green);
+}
+
+button {
+  background-color: var(--leaf-green);
 }
