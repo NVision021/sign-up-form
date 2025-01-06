@@ -12,6 +12,7 @@
 
 :root {
   --leaf-green: #596D48;
+  --logo-height: 5rem;
 }
 
 body {
@@ -35,14 +36,20 @@ body {
 
 .logo-background {
   background-color: black;
-  opacity: .8;
+  opacity: .6;
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-top: 150px;
 }
 
 h1 {
   font-family: "norse-bold";
+  font-size: var(--logo-height);
+}
+
+.logo {
+  height: var(--logo-height);
 }
 
 .italics{ 
@@ -63,6 +70,9 @@ a, button {
 
 footer {
   margin-top: auto;
+  font-size: 0.625rem;
+  display: flex;
+  justify-content: center;
 }
 
 .bold {
