@@ -13,6 +13,8 @@
 :root {
   --leaf-green: #596D48;
   --logo-height: 5rem;
+  --right-margin: 20%;
+  --left-margin: 5%;
 }
 
 body {
@@ -84,4 +86,15 @@ footer {
 
 button {
   background-color: var(--leaf-green);
+}
+
+.information,
+.middle-right-box,
+.bottom-right-box {
+  margin-right: var(--right-margin);
+  margin-left: var(--left-margin);
+}
+
+.information {
+  margin-top: 100px;
 }
