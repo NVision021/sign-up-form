@@ -35,8 +35,7 @@ body {
 }
 
 .logo-background {
-  background-color: black;
-  opacity: .6;
+  background-color: rgb(0, 0, 0, 0.6);
   display: flex;
   align-items: center;
   justify-content: center;
