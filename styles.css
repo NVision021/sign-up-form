@@ -108,7 +108,7 @@ label {
 input {
   display: block;
   border-radius: 3px;
-  border: solid 1px #E5E7EB;
+  border: solid 0.5px #E5E7EB;
 }
 
 .form-row {
@@ -121,5 +121,11 @@ input {
 }
 
 .label-input-pair {
-  margin-right: 40px;
+  margin-right: 50px;
+}
+
+input[type]:focus {
+  border: transparent 0.5px #E5E7EB;
+  outline: solid 0.5px blue;
+  box-shadow: 1px 1px 4px 0px rgb(0, 0, 0, 0.3);
 }
