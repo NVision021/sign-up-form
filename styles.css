@@ -129,3 +129,9 @@ input[type]:focus {
   outline: solid 0.5px blue;
   box-shadow: 1px 1px 4px 0px rgb(0, 0, 0, 0.3);
 }
+
+input[type="password"]:invalid {
+  border: transparent 0.5px #E5E7EB;
+  outline: solid 0.5px red;
+  background-color: pink;
+}
