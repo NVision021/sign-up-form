@@ -74,6 +74,7 @@ footer {
 
 .log-in {
   color: var(--leaf-green);
+  text-decoration: none;
 }
 
 button {
